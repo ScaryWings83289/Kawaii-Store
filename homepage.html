@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Homepage</title>
+    <link href="./img/favicon.png" rel="shortcut icon">
+    <link rel="stylesheet" href="./stylesheets/homepage.css">
+    <link rel="stylesheet" href="./stylesheets/mBox.css">
+    <style>
+        .container > img, .mBox > img  { width: 200px; }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="topPanel">30% off on your First Order</div>
+        <div id="menuPanel">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <td width="133" height="101">
+                            <img src="./img/logo.png" height="100" alt=""/>
+                        </td>
+                        <td width="540" class="theKawaiiStore">
+                            THE KAWAII STORE
+                        </td>
+                        <td width="163" style="text-align: center;">
+                            <a href="./homepage.html">Home</a>
+                        </td>
+                        <td width="128" style="text-align: center;">
+                            <a href="allstationery.html">All Stationery</a>
+                        </td>
+                        <td width="128" style="text-align: center;">
+                            <a href="#new">New In</a>
+                        </td>
+                        <td width="128" style="text-align: center;">
+                            <a href="signup.html">Sign Up</a>
+                        </td>
+                        <td width="128" style="text-align: center;">
+                            <a href="contactus.html">Contact Us</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="leftContentPanel"><br><br><br><br>Your one stop destination to buy all the Kawaii stationery that you can imagine!<br><br>
+            <center><div id="shopNow" onmouseover="ChangeColor()">SHOP NOW</div></center>
+        </div>
+        <div id="rightContentPanel"></div>
+        <div id="newIn"><br>
+            <a name="new">NEW IN</a>
+        </div>
+        <div id="new1">
+            <img src="./img/BTS.png" alt="" class="mBox" /><br><br>
+            <span class="new"><a href="BTS.html">BTS</a></span>
+        </div>
+        <div id="new2">
+            <img src="./img/Snoopy.jpg" alt="" class="mBox" /><br><br>
+            <span class="new"><a href="Snoopy.html">Snoopy</a></span>
+        </div>
+        <div id="new3">
+            <img src="./img/Unicorn.jpg" alt="" class="mBox" /><br><br>
+            <span class="new"><a href="Unicorn.html">Unicorn</a></span>
+        </div>
+        <div id="bottomPanel"><br>&copy;2020 THE KAWAII STORE. ALL RIGHTS RESERVED   <a href="privacypolicy.html">PRIVACY POLICY/ TERMS & CONDITIONS</a></div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="./js/mBox.js"></script>
+    <script>
+        $('.mBox').mBox();
+    </script>
+    <script src="./js/button.js"></script>
+
+</body>
+</html>
